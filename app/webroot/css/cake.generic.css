@@ -775,3 +775,10 @@ pre {
     font-size: 13px;
     padding: 3px;
 }
+
+#header input[type=submit]{
+    display: block;
+    color: #fff;
+    height: auto;
+    padding: 5px;
+}

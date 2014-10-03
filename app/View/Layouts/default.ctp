@@ -23,7 +23,9 @@
             <div class="login">
                 <?php echo $this->element('login'); ?>
             </div>
-
+            <?php if(AuthComponent::user('id')) {; ?>
+                <?php echo $this->element('menuLogado'); ?>
+            <?php } ?>
 		</div>
 		<div id="content">
 			<?php echo $this->Session->flash(); ?>
