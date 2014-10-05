@@ -11,4 +11,5 @@ to those who need it , through documentation , video classes and even actual cla
 
 <h2>Configuration</h2>
 
-O sistema é feito em PhP, CakePHP(2.5) e Mysql
+The system works on PhP(5.4), CakePHP(2.5) e Mysql(5.6)
+
