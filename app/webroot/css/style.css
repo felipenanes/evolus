@@ -23,10 +23,9 @@
 
 /** General Style Info **/
 body {
-	background: #135C69;
-	color: #fff;
-	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
-	font-size:90%;
+	background: #B4B4B4;
+	font-family: monospace;
+	font-size:120%;
 	margin: 0;
 }
 a {
@@ -46,8 +45,6 @@ h1, h2, h3, h4 {
 	margin-bottom:0.5em;
 }
 h1 {
-	background:#fff;
-	color: #003d4c;
 	font-size: 100%;
 }
 h2 {
@@ -57,8 +54,8 @@ h2 {
 	font-size: 190%;
 }
 h3 {
-	color: #2c6877;
-	font-family:'Gill Sans','lucida grande', helvetica, arial, sans-serif;
+	color: #642617;
+	font-family: fantasy;
 	font-size: 165%;
 }
 h4 {
@@ -297,6 +294,7 @@ form div {
 }
 form .input {
 	color: #444;
+    margin: 0;
 }
 form .required {
 	font-weight: bold;
@@ -309,7 +307,6 @@ form .required label:after {
 form div.submit {
 	border: 0;
 	clear: both;
-	margin-top: 10px;
 }
 label {
 	display: block;
@@ -753,11 +750,18 @@ pre {
 #header ul li{
     display: inline;
     border: 1px solid;
-    padding: 10px;
+    padding: 2px;
+    font-size: 16px;
+    margin: 0 0 0 0;
+    border-radius: 2px 2px 2px 2px;
+    color: #666666;
+    background: rgb(204, 204, 204);
 }
 
 #header ul a{
     text-decoration: none;
+    color:#fff;
+    text-shadow: 1px 1px 1px black;
 }
 
 
@@ -782,3 +786,17 @@ pre {
     height: auto;
     padding: 5px;
 }
+.logado{
+    display: left;
+    clear: both;
+    margin: 15px 0 0 11px;
+}
+ h4{
+     color: #000;
+ }
+
+ #wrapper {
+     text-align: left;
+     width: 960px;
+     margin: 0 auto;
+ }

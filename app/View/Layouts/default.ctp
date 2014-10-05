@@ -6,8 +6,7 @@
         <?= "Evolus"; ?>
 	</title>
 	<?php
-		echo $this->Html->css('cake.generic');
-
+		echo $this->Html->css('style');
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
@@ -16,16 +15,16 @@
 <body>
 	<div id="container">
 		<div id="header">
-			<h1>Evolus</h1>
+			<?php echo  $this->Html->link($this->Html->image('evolus.png', array('width' => '150')), array(''), array('escape' => false)); ?>
             <div class="menu">
                 <?php echo $this->element('menu'); ?>
-            </div>
-            <div class="login">
-                <?php echo $this->element('login'); ?>
             </div>
             <?php if(AuthComponent::user('id')) {; ?>
                 <?php echo $this->element('menuLogado'); ?>
             <?php } ?>
+            <div class="login">
+                <?php echo $this->element('login'); ?>
+            </div>
 		</div>
 		<div id="content">
 			<?php echo $this->Session->flash(); ?>
